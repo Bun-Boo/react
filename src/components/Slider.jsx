@@ -67,6 +67,11 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: teal;
+    color: white;
+  }
 `;
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
